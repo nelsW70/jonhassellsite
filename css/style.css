@@ -1,0 +1,51 @@
+body {
+  background-color: rgba(16,8,6,1);
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: rgba(16,8,6,1);
+    }
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -115px;
+    }
+}
+
+ #navbarbckgrnd {
+   border: none;
+   background-color: rgba(16,8,6,1);
+   margin-top: 1.5%;
+ }
+
+  #navbar-brand-centered {
+  background-color: rgba(16,8,6,1);
+  border-color: rgba(16,8,6,1);
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+}
+
+.navbar-brand {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(231,208,186,1);
+}
+
+.no-space-break{
+    white-space:nowrap;
+  }
