@@ -28,8 +28,8 @@ body {
   #navbar-brand-centered {
   background-color: rgba(16,8,6,1);
   border-color: rgba(16,8,6,1);
-  font-family: "Source Code Pro";
-  font-weight: 400;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 12px;
   letter-spacing: 2px;
@@ -39,8 +39,8 @@ body {
 }
 
 #title {
-  font-family: "Source Code Pro";
-  font-weight: 400;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
   letter-spacing: 3px;
