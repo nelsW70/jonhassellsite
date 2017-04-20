@@ -54,14 +54,39 @@ body {
   }
 
   #closeup {
-    margin: 10% 12.5% 10% 12.5%;
+    margin: 10% 15% 10% 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #selfportrait {
+    margin-top: 10%;
+    max-width: 90%;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   hr {
-    width: 100%;
+    width: 25%;
     color: white;
     border-style: none;
     border-width: .1px;
     background-color: white;
     height: 1px;
+    opacity: .25;
+  }
+
+  #presstext {
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-family: "Futura PT", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1.75em;
   }
