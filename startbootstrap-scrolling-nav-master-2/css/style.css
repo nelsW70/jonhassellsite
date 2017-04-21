@@ -1,15 +1,13 @@
 body {
   background-color: rgba(16,8,6,1);
   height: 100%;
-  width: 100;
+  width: 100%;
 }
 
 html {
   width: 100%;
   height: 100%;
 }
-
-
 
 @media(min-width:767px) {
     .navbar {
@@ -52,14 +50,14 @@ of those sections to manage the look and feel of the site. */
 .home-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgba(16,8,6,1);
 }
 
 .press-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgba(16,8,6,1);
 }
 
