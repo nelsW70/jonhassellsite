@@ -9,21 +9,7 @@ html {
   height: 100%;
 }
 
-/*@media screen and (min-width:768px){
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: rgba(16,8,6,1);
-    }
 
-    .navbar>.container .navbar-brand-centered,
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
-}*/
 
 @media(min-width:767px) {
     .navbar {
@@ -57,11 +43,20 @@ html {
   text-align: center;
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+/* Demo Sections - You can use these as guides or delete them - the scroller
+will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right
+area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+.home-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: rgba(16,8,6,1);
+}
+
+.press-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -75,14 +70,21 @@ of those sections to manage the look and feel of the site. */
     background-color: rgba(16,8,6,1);
 }
 
-.services-section {
+.media-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
-.contact-section {
+.discography-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: rgba(16,8,6,1);
+}
+
+.photos-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
