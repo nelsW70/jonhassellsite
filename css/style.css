@@ -46,42 +46,41 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .home-section {
-    height: 100%;
+
     padding-top: 100px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
-/*.press-section {
-    height: 100%;
+.press-section {
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
-}*/
+}
 
 .about-section {
-    height: 100%;
+
     padding-top: 100px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
 .media-section {
-    height: 100%;
+
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
 .discography-section {
-    height: 100%;
+
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
 .photos-section {
-    height: 100%;
+
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
