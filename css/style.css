@@ -9,22 +9,6 @@ html {
   height: 100%;
 }
 
-/*@media screen and (min-width:768px){
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: rgba(16,8,6,1);
-    }
-
-    .navbar>.container .navbar-brand-centered,
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
-}*/
-
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -61,28 +45,42 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+.home-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgba(16,8,6,1);
+}
+
+/*.press-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
-}
+}*/
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
-.services-section {
+.media-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background-color: rgba(16,8,6,1);
 }
 
-.contact-section {
+.discography-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: rgba(16,8,6,1);
+}
+
+.photos-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -120,12 +118,9 @@ of those sections to manage the look and feel of the site. */
 
 }
 
-.no-space-break{
-    white-space:nowrap;
-  }
 
   #closeup {
-    margin: 10% 15% 10% 15%;
+    margin: 0% 10% 1% 10%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -134,6 +129,7 @@ of those sections to manage the look and feel of the site. */
 
   #selfportrait {
     margin-top: 10%;
+    margin-bottom: 10%;
     max-width: 90%;
     max-height: auto;
     display: flex;
@@ -152,6 +148,7 @@ of those sections to manage the look and feel of the site. */
   }
 
   #presstext {
+    margin-top: 5%;
     text-align: center;
     color: rgba(255,255,255,1);
     font-family: "Futura PT", sans-serif;
@@ -161,4 +158,52 @@ of those sections to manage the look and feel of the site. */
     letter-spacing: 0.4px;
     line-height: 1.75em;
     max-width: 90%;
+  }
+
+  #biotext {
+    margin-top: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-family: "Futura PT", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1.75em;
+  }
+
+  #biopicandtext {
+    /*margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;*/
+    margin: 0% 20% 10% 20%;
+  }
+
+  .hrbio {
+    width: 100%;
+    color: white;
+    border-style: none;
+    border-width: .1px;
+    background-color: white;
+    height: 1px;
+    opacity: .25;
+
+  }
+
+  #bandshot {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+
+  .photos {
+    margin-bottom: 15%;
+  }
+
+  #studiocity {
+    max-width: 55%;
+    margin-left: 20%;
   }

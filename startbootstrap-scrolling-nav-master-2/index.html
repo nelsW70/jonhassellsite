@@ -40,7 +40,7 @@ data-target are part of the built-in Bootstrap scrollspy function -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"id="title">Jon Hassell</a>
+                <a class="navbar-brand page-scroll" id="title">Jon Hassell</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -218,7 +218,8 @@ data-target are part of the built-in Bootstrap scrollspy function -->
         </div>
       </div>
         <div class="container-fluid" id="selfportrait">
-         <img src="../img/jh-selfportrait.72dpi.jpg" class="img-responsive" alt="selfportrait">
+         <img src="../img/jh-selfportrait.72dpi.jpg" class="img-responsive"
+         alt="selfportrait" height="550" width="650">
         </div>
         <div class="container" id="presstext">
           <div class="row">
@@ -318,10 +319,13 @@ data-target are part of the built-in Bootstrap scrollspy function -->
     </section>
 
     <section id="about" class="about-section">
-        <div class="container-fluid">
+        <div class="container" id="biopicandtext">
             <div class="row">
-              <div class="col-md-6"><img src="../img/303569.jpeg" class="img-responsive" alt="Some picture"></div>
-              <div class="col-md-6">
+              <div class="col-md-6" id="biopic"><img src="../img/303569.jpeg" class="img-responsive"
+                alt="Some picture" height="560" width="500"></div>
+              <div class="col-md-6" id="biotext">
+                <hr class="hrbio">
+                <br><br>
                 <p>A childhood in Memphis, a classical conservatory education,
                   composition and electronic music study with Stockhausen in
                   Cologne; a passage through the New York minimalist sphere
@@ -335,17 +339,69 @@ data-target are part of the built-in Bootstrap scrollspy function -->
                   at work and to discourage the simplistic labeling of "world," "jazz,"
                   "classical," "minimal," or "ambient."
                 </p>
+                <br><br>
+                <hr class="hrbio">
                 </div>
               </div>
             </div>
-        </div>
     </section>
 
     <section id="media" class="media-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Media Section</h1>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://player.vimeo.com/video/94937562" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/94937562">Jon Hassell - City: Works Of Fiction - Expanded Edition Trailer</a> from <a href="https://vimeo.com/allsaintsrecords">All Saints Records</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-7IRnin9gF0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://player.vimeo.com/video/93470987" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zzp4A0q5hDI?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8jnSHZTzs0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZKNmQaoza5E?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://player.vimeo.com/video/20649562" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://player.vimeo.com/video/20650562" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://player.vimeo.com/video/20652029" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
                 </div>
             </div>
         </div>
@@ -365,13 +421,57 @@ data-target are part of the built-in Bootstrap scrollspy function -->
 
     <section id="photos" class="photos-section">
         <div class="container">
+          <div class="row">
+            <div class="col-lg-12 photos">
+                <img src="../img/Jon_Hassell_StJohns_033_.jpg" class="center-block img-responsive"
+                alt="stjohnstwo">
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-12 photos" id="studiocity">
+                  <img src="../img/jh-studio-city.jpg" class="center-block img-responsive"
+                  alt="bwphones">
+              </div>
+          </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Photos Section</h1>
+                <div class="col-lg-12 photos" id="bandshot">
+                    <img src="../img/PossibleMusicsbandshot.png" class="center-block img-responsive"
+                    alt="bandshot">
                 </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 photos">
+                  <img src="../img/tumblr_n752ca2VVS1r313cko1_1280.jpg" class="center-block img-responsive"
+                  alt="eno">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 photos">
+                  <img src="../img/SnowflakeBand2-HansWeis1.jpg" class="center-block img-responsive"
+                  alt="snowflake">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 photos" id="bwpic">
+                    <img src="../img/180386-fotografie-dal-1.jpg.png" class="center-block img-responsive"
+                    alt="bwcloseup">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 photos">
+                    <img src="../img/Jon_Hassell_StJohns_035_.jpg" class="center-block img-responsive"
+                    alt="stjohns">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 photos">
+                  <img src="../img/hassell.jpg" class="center-block img-responsive"
+                  alt="blue">
+              </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- jQuery -->
