@@ -130,7 +130,7 @@ look and feel of the site. */
 
 
   #closeup {
-    margin: 5% 10% 1% 10%;
+    margin: 7.5% 10% 1% 10%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -216,4 +216,20 @@ look and feel of the site. */
   #studiocity {
     max-width: 55%;
     margin-left: 20%;
+  }
+
+  .thumbnail, .caption {
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  .caption {
+    text-align:justify;
+    color: rgba(255,255,255,1) !important;
+    font-family: "Futura PT", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    line-height: 1.75em;
   }
