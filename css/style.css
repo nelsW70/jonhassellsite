@@ -85,7 +85,7 @@ look and feel of the site. */
 
 .discography-section {
 
-    padding-top: 100px;
+    padding-top: 250px;
     text-align: center;
     background-color: black;
 }
@@ -234,3 +234,6 @@ look and feel of the site. */
     line-height: 1.75em;
     opacity: .90;
   }
+
+  .modal-dialog {width:600px;}
+  .thumbnail {margin-bottom:6px;}

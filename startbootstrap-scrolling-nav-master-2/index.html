@@ -23,6 +23,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and
@@ -407,8 +408,8 @@ data-target are part of the built-in Bootstrap scrollspy function -->
         </div>
     </section>
 
-
-    <section id="discography" class="discography-section">
+<!--
+     <section id="discography" class="discography-section">
         <div class="container">
           <div class="row">
           <div class="col-sm-2 col-md-2">
@@ -565,6 +566,55 @@ data-target are part of the built-in Bootstrap scrollspy function -->
           </div>
           </div>
         </div>
+    </section> -->
+
+    <section id="discography" class="discography-section">
+
+      <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-2"><a title="Image 1" href="#myModal"><img class="thumbnail img-responsive" src="../img/vernalequinox.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 2" href="#myModal"><img class="thumbnail img-responsive" src="../img/earthquakeislsland.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 3" href="#myModal"><img class="thumbnail img-responsive" src="../img/possiblemusics.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 4" href="#myModal"><img class="thumbnail img-responsive" src="../img/dreamtheory.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 5" href="#myModal"><img class="thumbnail img-responsive" src="../img/akadarbari.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 6" href="#myModal"><img class="thumbnail img-responsive" src="../img/powerspot.jpg"></a></div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-2"><a title="Image 7" href="#myModal"><img class="thumbnail img-responsive" src="../img/surgeonofthenightsky.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 8" href="#myModal"><img class="thumbnail img-responsive" src="../img/flashofthespirit.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 9" href="#myModal"><img class="thumbnail img-responsive" src="../img/cityworksoffiction.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 10" href="#myModal"><img class="thumbnail img-responsive" src="../img/voiceprint.jpg" ></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 11" href="#myModal"><img class="thumbnail img-responsive" src="../img/dressingforpleasure.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 12" href="#myModal"><img class="thumbnail img-responsive" src="../img/personals.jpg"></a></div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-2"><a title="Image 13" href="#myModal"><img class="thumbnail img-responsive" src="../img/sullastrada.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 14" href="#myModal"><img class="thumbnail img-responsive" src="../img/verticalpic.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 15" href="#myModal"><img class="thumbnail img-responsive" src="../img/fascinoma.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 16" href="#myModal"><img class="thumbnail img-responsive" src="../img/maarifastreet.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 17" href="#myModal"><img class="thumbnail img-responsive" src="../img/lastnightthemoon.jpg"></a></div>
+            <div class="col-md-2 col-sm-2"><a title="Image 18" href="#myModal"><img class="thumbnail img-responsive" src="../img/cityworksboxset.jpg"></a></div>
+          </div>
+      </div>
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal">×</button>
+            <h3 class="modal-title">Heading</h3>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+           </div>
+          </div>
+        </div>
     </section>
 
 
@@ -623,6 +673,9 @@ data-target are part of the built-in Bootstrap scrollspy function -->
 
 
 
+
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -632,6 +685,16 @@ data-target are part of the built-in Bootstrap scrollspy function -->
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <script>
+    $('.thumbnail').click(function(){
+    $('.modal-body').empty();
+    var title = $(this).parent('a').attr("title");
+    $('.modal-title').html(title);
+    $($(this).parents('div').html()).appendTo('.modal-body');
+    $('#myModal').modal({show:true});
+    });
+    </script>
 
 </body>
 
