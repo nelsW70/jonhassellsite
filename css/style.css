@@ -235,5 +235,46 @@ look and feel of the site. */
     opacity: .90;
   }
 
-  .modal-dialog {width:600px;}
-  .thumbnail {margin-bottom:6px;}
+  .modal-dialog {
+    width:600px;
+  }
+  .thumbnail {
+    margin-bottom:6px;
+  }
+
+  /*.modal-content {
+    background: transparent !important;
+    border: transparent !important;
+  }*/
+
+  .modal-content {
+    background: black !important;
+    border: black !important;
+    opacity: .95;
+  }
+
+  .modal-header, .modal-footer {
+    border: none !important;
+  }
+
+  #myModal {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     top: 5%;
+  }
+
+  .close {
+    color: white !important;
+  }
+
+  .modal-title {
+    text-align: center;
+    color: rgba(255,255,255,1) !important;
+    font-family: "Futura PT", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.75em;
+  }
