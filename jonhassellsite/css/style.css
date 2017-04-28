@@ -42,12 +42,16 @@ html {
   text-align: center;
 }
 
-
-
 .navbar-default .navbar-nav>.active>a, .navbar-default
 .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: transparent !important;;
+  background-color: transparent !important;
 }
+
+.navbar-toggle {
+  border: none !important;
+  background-color: black !important;
+}
+
 
 /* Demo Sections - You can use these as guides or delete them -
 the scroller will work with any sort of height, fixed, undefined,
@@ -71,7 +75,7 @@ look and feel of the site. */
 
 .about-section {
 
-    padding-top: 100px;
+    padding-top: 25px;
     text-align: center;
     background-color: black;
 }
@@ -130,11 +134,12 @@ look and feel of the site. */
 
 
   #closeup {
-    margin: 7.5% 10% 1% 10%;
+    margin: 7.5% 10% 5% 10%;
     height: 100%;
-    display: flex;
+    /*min-width: 90%;*/
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
   }
 
   #selfportrait {
@@ -170,10 +175,22 @@ look and feel of the site. */
     max-width: 90%;
   }
 
+  #biopic {
+    /*margin-left: auto;
+    margin-right: aut*/
+    /*max-width: 90%;*/
+    height: 100%;
+
+
+  }
+
   #biotext {
+    /*margin-top: 20%;
+    margin-bottom: 20%;*/
+    /*margin-left: 5%;
+    margin-right: 5%;*/
     margin-top: 10%;
-    padding-right: 15%;
-    padding-left: 15%;
+    margin-bottom: 10%;
     text-align: center;
     color: rgba(255,255,255,1);
     font-family: "Futura PT", sans-serif;
@@ -185,11 +202,11 @@ look and feel of the site. */
   }
 
   #biopicandtext {
-    /*margin-top: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;*/
-    margin: 0% 20% 10% 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*margin: 0% 20% 10% 20%;*/
   }
 
   .hrbio {
@@ -250,7 +267,7 @@ look and feel of the site. */
   .modal-content {
     background: black !important;
     border: black !important;
-    opacity: .95;
+    opacity: .93;
   }
 
   .modal-header, .modal-footer {
@@ -277,4 +294,13 @@ look and feel of the site. */
     font-size: 14px;
     letter-spacing: 0.4px;
     line-height: 1.75em;
+  }
+
+  #media {
+    max-width: 95%;
+    margin:auto;
+  }
+
+  #discography {
+    margin-bottom: 5%;
   }
