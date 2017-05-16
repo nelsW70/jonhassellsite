@@ -34,27 +34,22 @@ html {
   position: absolute;
 }
 
-.navbar-toggle {
-  border: none;
-}
-
 .page-scroll {
   text-align: center;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default
 .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
-.navbar-toggle {
-  border: none !important;
-  background-color: black !important;
+#navbar-toggle {
+  border: none;
+  background-color: black;
 }
 
 
 .home-section {
-
     padding-top: 100px;
     text-align: center;
     background-color: black;
@@ -233,13 +228,13 @@ html {
   }
 
   .thumbnail, .caption {
-    background-color: black !important;
-    border-color: black !important;
+    background-color: black;
+    border-color: black;
   }
 
   .caption {
     text-align:left;
-    color: rgba(255,255,255,1) !important;
+    color: rgba(255,255,255,1);
     font-family: "Futura PT", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -262,13 +257,13 @@ html {
   }*/
 
   .modal-content {
-    background: black !important;
-    border: black !important;
+    background: black;
+    border: black;
     opacity: .93;
   }
 
   .modal-header, .modal-footer {
-    border: none !important;
+    border: none;
   }
 
   #myModal {
@@ -279,12 +274,12 @@ html {
   }
 
   .close {
-    color: white !important;
+    color: white;
   }
 
   .modal-title {
     text-align: center;
-    color: rgba(255,255,255,1) !important;
+    color: rgba(255,255,255,1);
     font-family: "Futura PT", sans-serif;
     font-weight: 300;
     font-style: normal;
