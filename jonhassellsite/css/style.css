@@ -50,41 +50,37 @@ html {
 
 
 .home-section {
-    padding-top: 100px;
+    padding-top: 75px;
     text-align: center;
     background-color: black;
 }
 
 .press-section {
-    padding-top: 25px;
+    padding-top: 2.5%;
     text-align: center;
     background-color: black;
 }
 
 .about-section {
-
-    padding-top: 25px;
+    padding-top: 1.5%;
     text-align: center;
     background-color: black;
 }
 
 .media-section {
-
-    padding-top: 100px;
+    padding-top: 7.5%;
     text-align: center;
     background-color: black;
 }
 
 .discography-section {
-
-    padding-top: 250px;
+    padding-top: 12.5%;
     text-align: center;
     background-color: black;
 }
 
 .photos-section {
-
-    padding-top: 150px;
+    padding-top: 7.5%;
     text-align: center;
     background-color: black;
 }
