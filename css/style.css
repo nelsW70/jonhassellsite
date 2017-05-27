@@ -255,7 +255,7 @@ html {
   .modal-content {
     background: black;
     border: black;
-    opacity: .93;
+    opacity: 1;
   }
 
   .modal-header, .modal-footer {
