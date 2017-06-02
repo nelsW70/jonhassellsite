@@ -10,19 +10,6 @@ html {
   height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
 #page-top, #navbarcontainer {
   background-color: black;
   border: none;
@@ -113,7 +100,6 @@ html {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: rgba(231,208,186,1);
-
 }
 
 
@@ -241,7 +227,7 @@ html {
   }
 
   .modal-dialog {
-    width:600px;
+    max-width:600px;
   }
   .thumbnail {
     margin-bottom:6px;
@@ -291,4 +277,29 @@ html {
 
   #discography {
     margin-bottom: 5%;
+  }
+
+  @media(min-width:767px) {
+      .navbar {
+          padding: 20px 0;
+          -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+          -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+          transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .top-nav-collapse {
+          padding: 0;
+      }
+  }
+
+  @media(max-width:1025px) {
+    #title {
+      font-family: "Source Code Pro", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(231,208,186,1);
+    }
   }
