@@ -10,7 +10,8 @@ html {
   height: 100%;
 }
 
-#page-top, #navbarcontainer {
+#page-top,
+#navbarcontainer {
   background-color: black;
   border: none;
 }
@@ -25,8 +26,9 @@ html {
   text-align: center;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default
-.navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
 }
 
@@ -35,51 +37,49 @@ html {
   background-color: black;
 }
 
-
 .home-section {
-    padding-top: 75px;
-    text-align: center;
-    background-color: black;
+  padding-top: 75px;
+  text-align: center;
+  background-color: black;
 }
 
 .press-section {
-    padding-top: 2.5%;
-    text-align: center;
-    background-color: black;
+  padding-top: 2.5%;
+  text-align: center;
+  background-color: black;
 }
 
 .about-section {
-    padding-top: 1.5%;
-    text-align: center;
-    background-color: black;
+  padding-top: 1.5%;
+  text-align: center;
+  background-color: black;
 }
 
 .media-section {
-    padding-top: 7.5%;
-    text-align: center;
-    background-color: black;
+  padding-top: 7.5%;
+  text-align: center;
+  background-color: black;
 }
 
 .discography-section {
-    padding-top: 12.5%;
-    text-align: center;
-    background-color: black;
+  padding-top: 12.5%;
+  text-align: center;
+  background-color: black;
 }
 
 .photos-section {
-    padding-top: 7.5%;
-    text-align: center;
-    background-color: black;
+  padding-top: 7.5%;
+  text-align: center;
+  background-color: black;
 }
 
+#navbarbckgrnd {
+  border: none;
+  background-color: black;
+  margin-top: 1.5%;
+}
 
- #navbarbckgrnd {
-   border: none;
-   background-color: black;
-   margin-top: 1.5%;
- }
-
-  #navbar-brand-centered {
+#navbar-brand-centered {
   background-color: black;
   border-color: black;
   font-family: "Source Code Pro", sans-serif;
@@ -89,7 +89,7 @@ html {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #title {
@@ -99,207 +99,205 @@ html {
   font-size: 18px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: rgba(231,208,186,1);
+  color: rgba(231, 208, 186, 1);
 }
 
-
-  #closeup {
-    margin: 7.5% 10% 5% 10%;
-    height: 100%;
-    /*min-width: 90%;*/
-    /*display: flex;
+#closeup {
+  margin: 7.5% 10% 5% 10%;
+  height: 100%;
+  /*min-width: 90%;*/
+  /*display: flex;
     justify-content: center;
     align-items: center;*/
-  }
+}
 
-  #selfportrait {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    max-width: 90%;
-    max-height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#selfportrait {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 90%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  hr {
-    width: 15%;
-    color: white;
-    border-style: none;
-    border-width: .1px;
-    background-color: white;
-    height: 1px;
-    opacity: .25;
-  }
+hr {
+  width: 15%;
+  color: white;
+  border-style: none;
+  border-width: 0.1px;
+  background-color: white;
+  height: 1px;
+  opacity: 0.25;
+}
 
-  #presstext {
-    margin-top: 5%;
-    text-align: center;
-    color: rgba(255,255,255,1);
-    font-family: "Futura PT", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 13px;
-    letter-spacing: 0.4px;
-    line-height: 1.75em;
-    max-width: 90%;
-  }
+#presstext {
+  margin-top: 5%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1.75em;
+  max-width: 90%;
+}
 
-  .quotesource {
-    color: rgba(239, 198, 159, 1);
-  }
+.quotesource {
+  color: rgba(239, 198, 159, 1);
+}
 
-  #biopic {
-    /*margin-left: auto;
+#biopic {
+  /*margin-left: auto;
     margin-right: aut*/
-    /*max-width: 90%;*/
-    height: 100%;
+  /*max-width: 90%;*/
+  height: 100%;
+}
 
-
-  }
-
-  #biotext {
-    /*margin-top: 20%;
+#biotext {
+  /*margin-top: 20%;
     margin-bottom: 20%;*/
-    /*margin-left: 5%;
+  /*margin-left: 5%;
     margin-right: 5%;*/
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align: center;
-    color: rgba(255,255,255,1);
-    font-family: "Futura PT", sans-serif;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1.75em;
+}
+
+#biopicandtext {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  /*margin: 0% 20% 10% 20%;*/
+}
+
+.hrbio {
+  width: 100%;
+  color: white;
+  border-style: none;
+  border-width: 0.1px;
+  background-color: white;
+  height: 1px;
+  opacity: 0.25;
+}
+
+#bandshot {
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.photos {
+  margin-bottom: 15%;
+}
+
+#studiocity {
+  max-width: 55%;
+  margin-left: 20%;
+}
+
+.thumbnail,
+.caption {
+  background-color: black;
+  border-color: black;
+}
+
+.caption {
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 1.75em;
+  opacity: 0.9;
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+.thumbnail {
+  margin-bottom: 6px;
+}
+
+.modal-content {
+  background: black;
+  border: black;
+  opacity: 1;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+#myModal {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5%;
+}
+
+.close {
+  color: white;
+}
+
+.modal-title {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 1.75em;
+}
+
+#media {
+  max-width: 95%;
+  margin: auto;
+}
+
+#discography {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .col-sm-4.youtube {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  #title {
+    font-family: "Source Code Pro", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 13px;
-    letter-spacing: 0.4px;
-    line-height: 1.75em;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(231, 208, 186, 1);
   }
-
-  #biopicandtext {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    /*margin: 0% 20% 10% 20%;*/
-  }
-
-  .hrbio {
-    width: 100%;
-    color: white;
-    border-style: none;
-    border-width: .1px;
-    background-color: white;
-    height: 1px;
-    opacity: .25;
-
-  }
-
-  #bandshot {
-    max-width: 90%;
-    margin-left: 5%;
-  }
-
-
-  .photos {
-    margin-bottom: 15%;
-  }
-
-  #studiocity {
-    max-width: 55%;
-    margin-left: 20%;
-  }
-
-  .thumbnail, .caption {
-    background-color: black;
-    border-color: black;
-  }
-
-  .caption {
-    text-align:left;
-    color: rgba(255,255,255,1);
-    font-family: "Futura PT", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 10px;
-    letter-spacing: 0.4px;
-    line-height: 1.75em;
-    opacity: .90;
-  }
-
-  .modal-dialog {
-    max-width:600px;
-  }
-  .thumbnail {
-    margin-bottom:6px;
-  }
-
-  /*.modal-content {
-    background: transparent !important;
-    border: transparent !important;
-  }*/
-
-  .modal-content {
-    background: black;
-    border: black;
-    opacity: 1;
-  }
-
-  .modal-header, .modal-footer {
-    border: none;
-  }
-
-  #myModal {
-     float: none;
-     margin-left: auto;
-     margin-right: auto;
-     top: 5%;
-  }
-
-  .close {
-    color: white;
-  }
-
-  .modal-title {
-    text-align: center;
-    color: rgba(255,255,255,1);
-    font-family: "Futura PT", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 0.4px;
-    line-height: 1.75em;
-  }
-
-  #media {
-    max-width: 95%;
-    margin:auto;
-  }
-
-  #discography {
-    margin-bottom: 5%;
-  }
-
-  @media(min-width:767px) {
-      .navbar {
-          padding: 20px 0;
-          -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-          -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-          transition: background .5s ease-in-out,padding .5s ease-in-out;
-      }
-
-      .top-nav-collapse {
-          padding: 0;
-      }
-  }
-
-  @media(max-width:1025px) {
-    #title {
-      font-family: "Source Code Pro", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      font-size: 16px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: rgba(231,208,186,1);
-    }
-  }
+}
